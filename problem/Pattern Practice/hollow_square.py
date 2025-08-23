@@ -8,5 +8,7 @@ def hollow_square(n: int) -> list[str]:
             result.append(row)
     return result
 
+# for i in hollow_square(10):
+#     print(i)
 
 print(hollow_square(10))
